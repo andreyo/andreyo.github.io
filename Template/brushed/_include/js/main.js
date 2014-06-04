@@ -80,8 +80,7 @@ BRUSHED.slider = function(){
 											{image : '_include/img/slider-images/slider_01.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/slider_02.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/slider_03.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/slider_04.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/slider_05.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''}
+											{image : '_include/img/slider-images/slider_04.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''}
 									],
 									
 		// Theme Options			   
@@ -115,7 +114,8 @@ BRUSHED.filter = function (){
 			  // options
 			  animationEngine: 'best-available',
 			  itemSelector : '.item-thumbs',
-			  layoutMode : 'fitRows'
+			  layoutMode : 'fitRows',
+              filter : '.kids'
 			});
 		});
 	
