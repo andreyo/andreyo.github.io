@@ -320,6 +320,14 @@ BRUSHED.scrollToTop = function(){
 			}
 		}
 	}, 250);
+
+    var $homeLink = $('#home-link');
+
+    $homeLink.click(function(e) {
+        $('body,html').animate({ scrollTop: "0" }, 750, 'easeOutExpo' );
+        e.preventDefault();
+    })
+
 }
 
 /* ==================================================
