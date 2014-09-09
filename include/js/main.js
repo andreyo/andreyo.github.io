@@ -79,8 +79,7 @@ BRUSHED.slider = function(){
 		slides 					:  	[			// Slideshow Images
 											{image : '/include/img/slider-images/slider_01.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
 											{image : '/include/img/slider-images/slider_02.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : '/include/img/slider-images/slider_03.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : '/include/img/slider-images/slider_04.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''}
+											{image : '/include/img/slider-images/slider_03.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''}
 									],
 									
 		// Theme Options			   
