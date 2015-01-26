@@ -77,10 +77,10 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '/include/img/slider-images/slider_01.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : '/include/img/slider-images/slider_02.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : '/include/img/slider-images/slider_03.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
-											{image : '/include/img/slider-images/slider_04.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''}
+											{image : 'include/img/slider-images/slider_01.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : 'include/img/slider-images/slider_02.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : 'include/img/slider-images/slider_03.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''},
+											{image : 'include/img/slider-images/slider_04.jpg', title : '<div class="slide-content"></div>', thumb : '', url : ''}
 									],
 									
 		// Theme Options			   
@@ -351,7 +351,7 @@ $(document).ready(function(){
 	Modernizr.load([
 	{
 		test: Modernizr.placeholder,
-		nope: '/include/js/placeholder.js',
+		nope: 'include/js/placeholder.js',
 		complete : function() {
 				if (!Modernizr.placeholder) {
 						Placeholders.init({
