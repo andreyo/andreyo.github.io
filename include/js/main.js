@@ -149,7 +149,12 @@ BRUSHED.filter = function (){
 			  // otherwise, apply new options
 			  $container.isotope( options );
 			}
-			
+
+			var clsName = value + "lazy";
+			//$(clsName).addClass('lazy').removeClass(clsName.split('.').join(""));
+			console.log(value + "pessed");
+			$("img"+clsName).lazyload();
+
 			return false;
 		});
 	}
@@ -400,8 +405,8 @@ $(document).ready(function(){
 	BRUSHED.accordion();
 	BRUSHED.toggle();
 	BRUSHED.toolTip();
+	$("img.kidslazy").lazyload();
 
-    $("img.lazy").lazy();
 });
 
 $(window).resize(function(){
@@ -412,6 +417,7 @@ $(window).resize(function(){
 var photosData = {
     groups: [{
         name: "kids",
+        clsName : "lazy",
         photos: [
 			"kids_201501_9024",
             "kids_201501_8937",
@@ -490,6 +496,7 @@ var photosData = {
             ]
     }, {
         name: "fam",
+        clsName : "lazy",
         photos: [
             "fam_201501_9374",
             "fam_201501_9310",
@@ -555,6 +562,7 @@ var photosData = {
             "fam_201408_02",
             "fam_201408_01"]
     }, {name : "preg",
+    	clsName : "lazy",
     	photos : [
     		"preg_201501_9905",
 			"preg_201501_9597",
@@ -591,6 +599,7 @@ var photosData = {
 			"preg_201408_02",
 			"preg_201408_01",]
     }, {name : "pers",
+    	clsName : "lazy",
     	photos : [
 			"pers_201501_7144",
 			"pers_201409_04",
@@ -610,9 +619,9 @@ var photosData = {
 			"pers_201408_04",
 			"pers_201408_03",
 			"pers_201408_01",]
-    },
-    {name : "proj",
-     photos: [
+    },{name : "proj",
+    	clsName : "lazy",
+     	photos: [
 			"proj_201408_09",
 			"proj_201408_08",
 			"proj_201408_07",
@@ -622,9 +631,9 @@ var photosData = {
 			"proj_201408_03",
 			"proj_201408_02",
 			"proj_201408_01",]
-    },
-    {name : "wed",
-     photos :[
+    }, {name : "wed",
+    	clsName : "lazy",
+     	photos :[
 			 "wed_201408_08",
 			 "wed_201408_07",
 			 "wed_201408_06",

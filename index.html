@@ -180,9 +180,9 @@
                                         <span class="overlay-img"></span>
                                         <span class="overlay-img-thumb font-icon-plus"></span>
                                     </a>
-                                    <img class="lazy"
+                                    <img class="{{name}}{{clsName}}"
                                          src="include/img/work/300_200_transparent.png"
-                                         data-src="include/img/work/{{.}}_min.jpg" alt="">
+                                         data-original="include/img/work/{{.}}_min.jpg" alt="">
                                 </li>
                                 {{/photos}}
                                 {{/groups}}
@@ -235,7 +235,7 @@
 <!-- Js -->
 <script src="include/js/jquery2.1.1.min.js"></script><!-- jQuery Core -->
 <script src="include/js/mustache.min.js"></script>
-<script src="include/js/jquery.lazy.min.js"></script>
+<script src="include/js/jquery.lazyload.min.js"></script>
 <script src="include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
 <script src="include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
 <script src="include/js/waypoints.js"></script> <!-- WayPoints -->
@@ -245,7 +245,7 @@
 <script src="include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
 <!--script src="include/js/jquery.tweet.js"></script--> <!-- Tweet -->
 <script src="include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
-<script src="include/js/main.js"></script> <!-- Default JS -->
+<script src="include/js/main.js?version=12"></script> <!-- Default JS -->
 <!-- End Js -->
 
 </body>
