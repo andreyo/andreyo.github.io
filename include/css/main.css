@@ -34,7 +34,7 @@ body{
 
 
 a{
-	color:#DE5E60;
+	color:#fffffe;
 	text-decoration: none;
 	cursor: pointer;
 	
@@ -48,7 +48,7 @@ a:hover,
 a:active,
 a:focus{
 	outline: 0;
-	color:#FFFFFF;
+	color:#DE5E60;
 	text-decoration:none;
 }
 
@@ -683,7 +683,7 @@ nav#menu #menu-nav li a:hover {
 
 .work-nav #filters li a {
 	color: #26292E;
-	font-size: 16px;
+	font-size: 18px;
 	display: block;	
 }
 
@@ -1145,7 +1145,7 @@ footer {
 
 footer .credits {
 	color: #FFFFFF;
-	font-size: 13px;
+	font-size: 14px;
 	margin-bottom: 0;
 	padding: 20px 0;
 	text-transform: uppercase;	
