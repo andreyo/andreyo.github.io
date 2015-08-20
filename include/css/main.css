@@ -756,7 +756,7 @@ nav#menu #menu-nav li a:hover {
 	height: 100%;
 	background: #DE5E60;
 	
-	opacity: 0.80;
+	opacity: 0.0;
 	filter: alpha(opacity=80);
 }
 
@@ -844,7 +844,7 @@ nav#menu #menu-nav li a:hover {
 	height: 100%;
 	background: #DE5E60;
 	
-	opacity: 0.80;
+	opacity: 0.0;
 	filter: alpha(opacity=80);
 }
 
