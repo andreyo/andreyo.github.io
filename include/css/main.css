@@ -205,7 +205,7 @@ h4,
 h5,
 h6{
 	margin:0 0 20px 0;
-	/*color:#FFFFFF;*/
+	/*color:#fffffe;*/
 	font-weight:300;
 	font-family: 'Titillium Web', sans-serif;
 	line-height:1.5em;
@@ -236,7 +236,7 @@ h6{
 }
 
 h3.spec {
-	color: #FFFFFF;
+	color: #fffffe;
     font-size: 24px;
     font-weight: 300;
     line-height: 1em;
@@ -303,7 +303,7 @@ h3.spec {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: #ffffff;
+	background: #fffffe;
 	opacity: 0.0;
 	filter: alpha(opacity=70);
 	z-index: 0;
@@ -330,7 +330,7 @@ h3.spec {
 
 #home-slider .slide-content {
 	font-size: 60px;
-	color: #FFFFFF;
+	color: #fffffe;
 	letter-spacing: -3px;
 	text-transform: uppercase;	
 }
@@ -381,7 +381,7 @@ h3.spec {
 #home-slider #nextslide i,
 #home-slider #prevslide i {
 	font-size: 16px;
-	color: #FFFFFF;
+	color: #fffffe;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -428,7 +428,7 @@ h3.spec {
 }
 
 #home-slider ul#slide-list li a:hover {
-	background-color: #FFFFFF;	
+	background-color: #fffffe;
 }
 
 #home-slider ul#slide-list li.current-slide a,
@@ -456,7 +456,7 @@ h3.spec {
 
 #home-slider #nextsection i {
 	font-size: 16px;
-	color: #FFFFFF;
+	color: #fffffe;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -482,7 +482,7 @@ header .sticky-nav {
 	position: relative;
 	width: 100%;
 	height: 40px;
-	background: #ffffff;
+	background: #fffffe;
 	z-index: 1001;
 	
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -498,7 +498,7 @@ header .sticky-nav.stuck {
 }
 
 header #logo {
-	color: #FFFFFF;
+	color: #fffffe;
 	float: left;
 	padding: 15px 0;
 	margin-left: 20px;
@@ -618,10 +618,15 @@ nav#menu #menu-nav li a:hover {
 }
 
 #navigation-mobile li a{
+	color: #fffffe;
 	display: block;
 	font-size: 16px;
 	text-transform: uppercase;
 	padding: 20px 0;
+}
+
+#navigation-mobile li a:hover {
+	color: #DE5E60;
 }
 
 
@@ -637,7 +642,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .page-alternate {
-	background: #ffffff;
+	background: #fffffe;
 	padding: 50px 0;
 	position: relative;
 	z-index: 99;
@@ -664,7 +669,7 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .type-work {
-	color: #FFFFFF;
+	color: #fffffe;
 	font-size: 24px;
 	font-weight: 300;
 	margin-bottom: 30px;
@@ -765,7 +770,7 @@ nav#menu #menu-nav li a:hover {
 	top: 50%;
 	left: 50%;
 	margin: -16px 0 0 -16px;
-	color: #FFFFFF;
+	color: #fffffe;
 	font-size: 32px;
 	line-height: 1em;
 	
@@ -854,7 +859,7 @@ nav#menu #menu-nav li a:hover {
 	height: 32px;
 	top: 50%;
 	margin: -16px 0 0 0;
-	color: #FFFFFF;
+	color: #fffffe;
 	font-size: 20px;
 	font-weight: 300;
 	line-height: 32px;
@@ -880,7 +885,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .social-icons li a{
-	color: #FFFFFF;
+	color: #fffffe;
 	font-size: 16px;
 	line-height: 1em;
 	width: 16px;
@@ -905,7 +910,7 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .contact-details h3 {
-	color: #FFFFFF;
+	color: #fffffe;
     font-size: 24px;
     font-weight: 300;
     margin-bottom: 30px;
@@ -944,8 +949,8 @@ nav#menu #menu-nav li a:hover {
 	-moz-box-shadow: none;
 	box-shadow: none;
 	
-	background: #ffffff;
-    color: #FFFFFF;
+	background: #fffffe;
+    color: #fffffe;
     font-size: 16px;
     height: auto;
     padding: 15px;
@@ -990,12 +995,12 @@ nav#menu #menu-nav li a:hover {
 
 #contact-form .submit:hover {
     background: #DE5E60;
-    color: #FFFFFF;
+    color: #fffffe;
 }
 
 #response {
 	margin-top: 20px;
-	color: #FFFFFF;
+	color: #fffffe;
 }
 
 
@@ -1039,7 +1044,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 #ticker .tweet_list .tweet_time a:hover {
-	color: #FFFFFF;	
+	color: #fffffe;
 }
 
 
@@ -1072,7 +1077,7 @@ nav#menu #menu-nav li a:hover {
 	width: 70px;
 	height: 70px;
 
-	background: #ffffff;
+	background: #fffffe;
 	
 	-webkit-transition: all 400ms ease-out 0s;	
 	   -moz-transition: all 400ms ease-out 0s;
@@ -1121,7 +1126,7 @@ nav#menu #menu-nav li a:hover {
 
 #social ul li:hover a span,
 #social ul li.active a span {
-	color: #FFFFFF;
+	color: #fffffe;
 	opacity: 1;
 	filter: alpha(opacity=100);
 	
@@ -1140,13 +1145,13 @@ footer {
 	position: relative;
 	width: 100%;
 	height: auto;
-	background: #ffffff;
+	background: #fffffe;
 	text-align: center;
 	z-index: 99;
 }
 
 footer .credits {
-	color: #FFFFFF;
+	color: #fffffe;
 	font-size: 14px;
 	margin-bottom: 0;
 	padding: 20px 0;
@@ -1180,7 +1185,7 @@ footer .credits {
 
 #back-to-top i {
 	font-size: 16px;
-	color: #FFFFFF;
+	color: #fffffe;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -1234,7 +1239,7 @@ footer .credits {
 	z-index: 800;
 	
 	font-size: 24px;
-	color: #FFFFFF;	
+	color: #fffffe;
 
 	-webkit-animation: circle 1s infinite forwards;
 	   -moz-animation: circle 1s infinite forwards;
