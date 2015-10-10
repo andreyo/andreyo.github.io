@@ -1,4 +1,4 @@
-for file in `ls -1 |grep '201508'|grep -v min|sort -r|awk -F. '{print $1}'`
+for file in `ls -1 |grep '201510'|grep -v min|sort -r|awk -F. '{print $1}'`
 do
     echo \""$file"\",
     #echo mv -v "$file".jpg "${file%20140909*}201409${file#*20140909}".jpg
