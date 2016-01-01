@@ -109,6 +109,13 @@ hr {
    	font-weight: bold;
 }
 
+.package-text {
+	font-weight:300;
+	font-family: 'Titillium Web', sans-serif;
+	line-height:1.5em;
+	font-size: 20px;
+}
+
 .through{
 	text-decoration:line-through;
 }
