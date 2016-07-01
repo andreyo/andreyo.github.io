@@ -363,22 +363,7 @@ BRUSHED.mustacheInit = function(){
 BRUSHED.slider();
 
 $(document).ready(function(){
-	Modernizr.load([
-	{
-		test: Modernizr.placeholder,
-		nope: 'include/js/placeholder.js',
-		complete : function() {
-				if (!Modernizr.placeholder) {
-						Placeholders.init({
-						live: true,
-						hideOnFocus: false,
-						className: "yourClass",
-						textColor: "#999"
-						});
-				}
-		}
-	}
-	]);
+	Modernizr.load([]);
 	
 	// Preload the page with jPreLoader
 	$('body').jpreLoader({
