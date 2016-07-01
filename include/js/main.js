@@ -365,16 +365,16 @@ BRUSHED.slider();
 $(document).ready(function(){
 	Modernizr.load([]);
 	
-//	// Preload the page with jPreLoader
-//	$('body').jpreLoader({
-//		splashID: "#jSplash",
-//		showSplash: true,
-//		showPercentage: true,
-//		autoClose: true,
-//		splashFunction: function() {
-//			$('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
-//		}
-//	});
+	// Preload the page with jPreLoader
+	$('body').jpreLoader({
+		splashID: "#jSplash",
+		showSplash: true,
+		showPercentage: true,
+		autoClose: true,
+		splashFunction: function() {
+			$('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
+		}
+	});
 	BRUSHED.mustacheInit();
 	BRUSHED.nav();
 	BRUSHED.mobileNav();
